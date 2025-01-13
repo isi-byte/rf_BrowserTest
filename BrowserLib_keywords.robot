@@ -34,7 +34,7 @@ ${EDIT_SAVEADDRESS}  xpath://*[@id="form-validate"]/div/div[1]/button/span
 
 *** Keywords ***
 Navigate to home page
-            New Browser    Chromium   headless=false
+            New Browser    Chromium  headless=false
             New page       ${URL}
             Click          ${CREATE_NEW_ACCOUNT_LINK}
 
